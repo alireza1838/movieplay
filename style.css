@@ -3,6 +3,19 @@
 --design_color:#b6eada ;
 --second_color:#301e67 ;
 }
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix');
+    src: url('Vazir-Bold.woff');
+    src: url('Vazir-Bold.ttf');
+    font-weight: bold;
+  }
+
+*{
+    box-sizing: border-box;
+    /* font-family: 'vazir'; */
+}
 body{
     min-height: 100vh;
     direction: rtl;
@@ -11,7 +24,12 @@ margin: 0;
 }
 menu{
     background-color: var(--second_color);
-    height: 50PX;
+    height: 80PX;
     margin: 0;
-
+color: var(--design_color);
+display: flex;
+}
+menu img{
+    height: 40vh;
+    margin: -64px 0 0 0;
 }
